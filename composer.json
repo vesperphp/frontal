@@ -2,7 +2,7 @@
   "name": "vesperphp/frontal",
   "type": "package",
   "description": "Vesper PHP, build fast.",
-  "keywords": ["framework", "vesperphp", "frontend", ],
+  "keywords": ["framework", "vesperphp", "frontend"],
   "license": "MIT",
   
    "authors": [
