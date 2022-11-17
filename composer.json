@@ -1,1 +1,19 @@
+{
+  "name": "vesperphp/frontal",
+  "type": "package",
+  "description": "Vesper PHP, build fast.",
+  "keywords": ["framework", "vesperphp", "frontend", ],
+  "license": "MIT",
+  
+   "authors": [
+      {
+          "name": "Rik Janssen",
+          "email": "rik@vesperphp.com"
+      }
+  ],
+  
+  "require": {
 
+  }
+  
+}
