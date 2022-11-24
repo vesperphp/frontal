@@ -1,0 +1,18 @@
+@import "variables.scss";
+
+.radius{ border-radius: $radius; }
+.round{ border-radius: 100%; }
+
+.border{ border-width: $borderWidth; border-style: $borderStyle; }
+.border-top{ border-top-width: $borderWidth; border-style: $borderStyle; }
+.border-left{ border-left-width: $borderWidth; border-style: $borderStyle; }
+.border-right{ border-right-width: $borderWidth; border-style: $borderStyle; }
+.border-bottom{ border-bottom-width: $borderWidth; border-style: $borderStyle; }
+
+.border-l{ border-width: $borderWidth*3; border-style: $borderStyle; }
+.border-top-l{ border-top-width: $borderWidth*3; border-style: $borderStyle; }
+.border-left-l{ border-left-width: $borderWidth*3; border-style: $borderStyle; }
+.border-right-l{ border-right-width: $borderWidth*3; border-style: $borderStyle; }
+.border-bottom-l{ border-bottom-width: $borderWidth*3; border-style: $borderStyle; }
+
+.noborder{ border: 0;}

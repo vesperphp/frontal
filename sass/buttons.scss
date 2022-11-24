@@ -1,0 +1,44 @@
+@import "variables.scss";
+
+.button:hover{ background-color: $secondary; }
+
+.button{
+
+    display: inline-block;
+    border-radius: $radius;
+    padding: $mar-pad-s $mar-pad-m;
+    background-color: $primary;
+    font-size: $fontSize;
+    color: $white;
+
+    .fullwidth{ display: block; }
+
+    .primary-hover:hover{ background-color: $primary; }
+    .secondary-hover:hover{ background-color: $secondary; }
+    .dark-hover:hover{ background-color: $dark; }
+    .light-hover:hover{ background-color: $light; }
+    .danger-hover:hover{ background-color: $danger; }
+    .warning-hover:hover{ background-color: $warning; }
+    .success-hover:hover{ background-color: $success; }
+    .info-hover:hover{ background-color: $info; }
+
+}
+
+a:hover{ color: $linkHover; }
+
+a{ 
+    color: $linkColor; 
+    text-decoration: $textDecoration;
+
+    .primary-hover:hover{ background-color: $primary; }
+    .secondary-hover:hover{ background-color: $secondary; }
+    .dark-hover:hover{ background-color: $dark; }
+    .light-hover:hover{ background-color: $light; }
+    .danger-hover:hover{ background-color: $danger; }
+    .warning-hover:hover{ background-color: $warning; }
+    .success-hover:hover{ background-color: $success; }
+    .info-hover:hover{ background-color: $info; }
+
+    .text-decoration{ text-decoration: underline; }
+
+}

@@ -1,0 +1,22 @@
+@import "variables.scss";
+
+* { margin: 0; padding: 0; border: 0; background-color: transparent; font-size: $fontSize; font-family: $fontFamily; line-height: $lineHeight; font-weight: normal; }
+
+/* text in basics */
+
+p{
+    font-size: $fontSize;
+    font-family: $fontFamily;
+    line-height: $lineHeight;
+    
+}
+
+h1{ font-size: $h1; font-family: $headerFamily; line-height: $lineHeight; }
+h2{ font-size: $h2; font-family: $headerFamily; line-height: $lineHeight; }
+h3{ font-size: $h3; font-family: $headerFamily; line-height: $lineHeight; }
+h4{ font-size: $h4; font-family: $headerFamily; line-height: $lineHeight; }
+h5{ font-size: $h5; font-family: $headerFamily; line-height: $lineHeight; }
+
+.text-light{ font-weight: lighter; }
+.text-normal{ font-weight: normal; }
+.text-bold{ font-weight: bold; }

@@ -1,0 +1,55 @@
+@import "variables.scss";
+
+/* background colours **/
+.primary{ background-color: $primary; }
+.secondary{ background-color: $secondary; }
+
+.dark{ background-color: $dark; }
+.light{ background-color: $light; }
+
+.black{ background-color: $black; }
+.white{ background-color: $white; }
+
+.danger{ background-color: $danger; }
+.warning{ background-color: $warning; }
+.success{ background-color: $success; }
+.info{ background-color: $info; }
+
+.primary-light{ background-color: scale-color($primary, $lightness: $lighter); }
+.secondary-light{ background-color: scale-color($secondary, $lightness: $lighter); }
+.danger-light{ background-color: scale-color($danger, $lightness: $lighter); }
+.warning-light{ background-color: scale-color($warning, $lightness: $lighter); }
+.success-light{ background-color: scale-color($success, $lightness: $lighter); }
+.info-light{ background-color: scale-color($info, $lightness: $lighter); }
+
+.primary-dark{ background-color: scale-color($primary, $lightness: $darker); }
+.secondary-dark{ background-color: scale-color($secondary, $lightness: $darker); }
+.danger-dark{ background-color: scale-color($danger, $lightness: $darker); }
+.warning-dark{ background-color: scale-color($warning, $lightness: $darker); }
+.success-dark{ background-color: scale-color($success, $lightness: $darker); }
+.info-dark{ background-color: scale-color($info, $lightness: $darker); }
+
+
+/* text colours */
+.text-primary{ color: $primary; }
+.text-secondary{ color: $secondary; }
+.text-dark{ color: $dark; }
+.text-light{ color: $light; }
+.text-black{ color: $black; }
+.text-white{ color: $white; }
+.text-danger{ color: $danger; }
+.text-warning{ color: $warning; }
+.text-success{ color: $success; }
+.text-info{ color: $info; }
+
+/* border colours */
+.border-primary{ border-color: $primary; }
+.border-secondary{ border-color: $secondary; }
+.border-dark{ border-color: $dark; }
+.border-light{ border-color: $light; }
+.border-black{ border-color: $black; }
+.border-white{ border-color: $white; }
+.border-danger{ border-color: $danger; }
+.border-warning{ border-color: $warning; }
+.border-success{ border-color: $success; }
+.border-info{ border-color: $info; }

@@ -1,0 +1,77 @@
+@import "variables.scss";
+
+.mt-s{ margin-top: $mar-pad-s; }
+.mb-s{ margin-bottom: $mar-pad-s; }
+.ml-s{ margin-left: $mar-pad-s; }
+.mr-s{ margin-right: $mar-pad-s; }
+.my-s{ margin-top: $mar-pad-s; 
+       margin-bottom: $mar-pad-s; }
+.mx-s{ margin-left: $mar-pad-s; 
+       margin-right: $mar-pad-s; }
+.m-s{  margin: $mar-pad-s; }
+.mt-m{ margin-top: $mar-pad-m; }
+.mb-m{ margin-bottom: $mar-pad-m; }
+.ml-m{ margin-left: $mar-pad-m; }
+.mr-m{ margin-right: $mar-pad-m; }
+.my-m{ margin-top: $mar-pad-m; 
+       margin-bottom: $mar-pad-m; }
+.mx-m{ margin-left: $mar-pad-m; 
+       margin-right: $mar-pad-m; }
+.m-m{  margin: $mar-pad-m; }
+.mt-l{ margin-top: $mar-pad-l; }
+.mb-l{ margin-bottom: $mar-pad-l; }
+.ml-l{ margin-left: $mar-pad-l; }
+.mr-l{ margin-right: $mar-pad-l; }
+.my-l{ margin-top: $mar-pad-l; 
+       margin-bottom: $mar-pad-l; }
+.mx-l{ margin-left: $mar-pad-l; 
+       margin-right: $mar-pad-l; }
+.m-l{  margin: $mar-pad-l; }
+.mt-xl{ margin-top: $mar-pad-xl; }
+.mb-xl{ margin-bottom: $mar-pad-xl; }
+.ml-xl{ margin-left: $mar-pad-xl; }
+.mr-xl{ margin-right: $mar-pad-xl; }
+.my-xl{ margin-top: $mar-pad-xl; 
+        margin-bottom: $mar-pad-xl; }
+.mx-xl{ margin-left: $mar-pad-xl; 
+        margin-right: $mar-pad-xl; }
+.m-xl{  margin: $mar-pad-xl; }
+.pt-s{ padding-top: $mar-pad-s; }
+.pb-s{ padding-bottom: $mar-pad-s; }
+.pl-s{ padding-left: $mar-pad-s; }
+.pr-s{ padding-right: $mar-pad-s; }
+.py-s{ padding-top: $mar-pad-s; 
+       padding-bottom: $mar-pad-s; }
+.px-s{ padding-left: $mar-pad-s; 
+       padding-right: $mar-pad-s; }
+.p-s{  padding: $mar-pad-s; }
+.pt-m{ padding-top: $mar-pad-m; }
+.pb-m{ padding-bottom: $mar-pad-m; }
+.pl-m{ padding-left: $mar-pad-m; }
+.pr-m{ padding-right: $mar-pad-m; }
+.py-m{ padding-top: $mar-pad-m; 
+       padding-bottom: $mar-pad-m; }
+.px-m{ padding-left: $mar-pad-m; 
+       padding-right: $mar-pad-m; }
+.p-m{  padding: $mar-pad-m; }
+.pt-l{ padding-top: $mar-pad-l; }
+.pb-l{ padding-bottom: $mar-pad-l; }
+.pl-l{ padding-left: $mar-pad-l; }
+.pr-l{ padding-right: $mar-pad-l; }
+.py-l{ padding-top: $mar-pad-l; 
+       padding-bottom: $mar-pad-l; }
+.px-l{ padding-left: $mar-pad-l; 
+       padding-right: $mar-pad-l; }
+.p-l{  padding: $mar-pad-l; }
+.pt-xl{ padding-top: $mar-pad-xl; }
+.pb-xl{ padding-bottom: $mar-pad-xl; }
+.pl-xl{ padding-left: $mar-pad-xl; }
+.pr-xl{ padding-right: $mar-pad-xl; }
+.py-xl{ padding-top: $mar-pad-xl; 
+        padding-bottom: $mar-pad-xl; }
+.px-xl{ padding-left: $mar-pad-xl; 
+        padding-right: $mar-pad-xl; }
+.p-xl{  padding: $mar-pad-xl; }
+.wrapper-small{ max-width: $mobileWidth; }
+.wrapper{ max-width: $normalWidth; }
+.fullwidth{ width: $fullWidth; }
